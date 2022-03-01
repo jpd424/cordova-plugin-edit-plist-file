@@ -46,11 +46,11 @@
         </config-file>
         
         <config-file parent="NSCameraUsageDescription" target="*-Info.plist">
-            <string>We are using a camera to allow you to customize your profile pic</string>
+            <string>We are using the camera to allow you to customize your profile picture</string>
         </config-file>
        
         <config-file parent="NSPhotoLibraryUsageDescription" target="*-Info.plist">
-            <string>We are using the gallery to allow you to update your profile pic</string>
+            <string>We are using the gallery to allow you to update your profile picture</string>
         </config-file>
         
         
