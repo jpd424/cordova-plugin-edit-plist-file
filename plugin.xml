@@ -45,9 +45,9 @@
             </array>
         </config-file>
         
-        <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
-            <string>We are using the camera to allow you to customize your profile picture</string>
-        </edit-config>
+        <config-file parent="NSCameraUsageDescription" platform="ios" target="*-Info.plist">
+            <string>Camera is used for scanning barcode</string>
+        </config-file>
        
         <config-file parent="NSPhotoLibraryUsageDescription" target="*-Info.plist">
             <string>We are using the photo libray to allow you to update your profile picture</string>
