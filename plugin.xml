@@ -45,13 +45,13 @@
             </array>
         </config-file>
         
-        <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge" overwrite="true">
+        <config-file parent="NSCameraUsageDescription" target="*-Info.plist">
             <string>We are using the camera to allow you to customize your profile picture</string> 
-        </edit-config>
+        </config-file>
        
-        <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge" overwrite="true" >
+        <config-file parent="NSPhotoLibraryUsageDescription" target="*-Info.plist">
             <string>We are using the photo libray to allow you to update your profile picture</string>
-        </edit-config>
+        </config-file>
         
         
     </platform>
