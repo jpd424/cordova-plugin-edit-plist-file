@@ -52,6 +52,10 @@
         <config-file parent="NSCameraUsageDescription" platform="ios" target="*-Info.plist" device-target="all">
             <string>Allow you to update your profile picture</string>
         </config-file>
+
+        <config-file parent="NSLocationAlwaysAndWhenInUseUsageDescription" platform="ios" target="*-Info.plist" device-target="all">
+            <string>Allow us to provide walking directions to locations around campus</string>
+        </config-file>
         
         
     </platform>
